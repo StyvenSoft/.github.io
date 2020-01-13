@@ -2,4 +2,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+:root{
+    --dark-color: #343a40;
+    --black: #1F2430;
+    --darksecond: #3A3F4B;
+    --blue: #136586;
+    --gray-color: #A6AAA9;
+}
+.container-main{
+    background-color: var(--dark-color);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    position: absolute;
+}
+#profile{
+    background-color: var(--gray-color);
+}
+.photo-inner-container img{
+    float: left;
+    width: 214px;
+    height: 214px;
+    padding: 12px 0 0 19px;
+}
+.about{
+    color: white;
+}
+.about h1{
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.about h3{
+    margin-top: 5px;
+    
+}
+.about p{
+    margin-top: 2rem;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
 }
