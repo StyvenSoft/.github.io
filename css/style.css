@@ -7,9 +7,9 @@
 }
 :root{
     --dark-color: #343a40;
-    --black: #1F2430;
+    --black-color: #1F2430;
     --darksecond: #3A3F4B;
-    --blue: #136586;
+    --blue-color: #136586;
     --gray-color: #A6AAA9;
 }
 .main{
@@ -26,8 +26,10 @@
     background-color: var(--gray-color);
 }
 .photo-inner img{
-    width: 214px;
+    width: 180px;
     height: 214px;
+    margin: 1rem;
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
 }
 .info-inner{
     margin-left: 2rem;
@@ -67,9 +69,12 @@
     position: absolute;
     right: 0;
     color: white;
-    padding: 2px 9px;
+    margin-top: 2rem;
     font-size: 1.5rem;
     cursor: pointer;
+}
+i.fa.fa-share {
+    margin-right: 5px;
 }
 .social-icons{
     opacity: 0;
@@ -98,6 +103,7 @@
     position: absolute;
     margin-top: -14px;
     z-index: 100;
+    display: flex;
 }
 .tabs li > a {
     padding-top: 2rem;
@@ -111,9 +117,24 @@
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
+    margin-right: 35px;
 }
-.tabs li.active a{
-    color: #cf455c;
+li a.active{
+    color: var(--dark-color);
+}
+li a.active > i{
+    animation: bounce 2s infinite;
+}
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-0px);
+    }
+    59%{
+        transform: translateY(-10px);
+    }
 }
 .tabs li > a > i{
     font-size: 2rem;
@@ -124,4 +145,7 @@
     overflow: hidden;
     margin-left: 1rem;
     display: none;
+}
+.footer{
+    margin-top: 1rem;
 }
