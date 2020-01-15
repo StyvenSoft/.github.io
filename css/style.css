@@ -18,50 +18,46 @@
     height: 100%;
     
 }
-.container-main{
+#container{
     width: 860px;
     margin: 0 auto;
 }
 #profile{
     background-color: var(--gray-color);
-}
-.photo-inner img{
-    width: 180px;
-    height: 214px;
-    margin: 1rem;
-    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
-}
-.info-inner{
-    margin-left: 2rem;
-}
-.about-inner{
+    color: var(--light);
     display: grid;
     grid-auto-flow: column;
+    padding: 1rem;
+}
+.photo-inner img{
+    width: 160px;
+    height: 190px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
 }
 .about{
-    color: var(--light);
     display: grid;
     grid-auto-flow: column;
     /* grid-template-columns: repeat(2, 1fr); */
 }
+.photo-inner, .info-inner, .personal-info {
+    margin: 1rem;
+}
 .about h1{
     font-weight: 900;
-    font-size: 3rem;
+    line-height: 43px;
+    font-size: 2.3rem;
+    text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
 }
 .about h3{
     margin-top: 5px;
-    
 }
 .about p{
-    margin-top: 2rem;
-    font-weight: 400;
+    margin-top: 15px;
     font-family: 'Roboto Condensed', sans-serif;
 }
-.personal-info{
-    margin: 2rem;
-}
-.header{
+header{
     position: relative;
     overflow: visible ;
 }
@@ -106,7 +102,7 @@ i.fa.fa-share {
     display: flex;
 }
 .tabs li > a {
-    padding-top: 2rem;
+    padding-top: 1rem;
     width: 115px;
     display: inline-block;
     background-repeat: no-repeat;
@@ -119,10 +115,14 @@ i.fa.fa-share {
     font-family: 'Roboto Condensed', sans-serif;
     margin-right: 35px;
 }
-li a.active{
+a.tab-profile.active{
+    background: url(../img/tab-hover.png) no-repeat;
+    height: 118px;
+}
+.tabs li.active a{
     color: var(--dark-color);
 }
-li a.active > i{
+a.tab-profile.active{
     animation: bounce 2s infinite;
 }
 @keyframes bounce{
@@ -137,14 +137,18 @@ li a.active > i{
     }
 }
 .tabs li > a > i{
-    font-size: 2rem;
+    font-size: 2.5rem;
     display: block;
     margin-bottom: .3rem;
 }
 #logo{
+    float: left;
     overflow: hidden;
-    margin-left: 1rem;
+    margin-top: 1rem;
     display: none;
+}
+#logo h2{
+    text-transform: uppercase;
 }
 .footer{
     margin-top: 1rem;

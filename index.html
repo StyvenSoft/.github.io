@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 <body class="main">
-    <section class="container-main">
-        <header class="header">
+    <section id="container">
+        <header>
             <div id="logo">
                 <h2>Steveen Echeverri</h2>
                 <h4>Junior web developer</h4>
@@ -30,39 +30,49 @@
                 </ul>
             </div>
         </header>
-        <section class="content">
+        <section id="content">
             <div id="profile">
                 <div class="about">
-                    <div class="about-inner">
-                        <ul class="photo-inner">
-                            <img src="./img/profile.jpg" alt="profile"> 
-                        </ul>
-                        <div class="info-inner">
-                            <h1>Steveen Echeverri</h1>
-                            <h3>Junior web developer</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis officiis sed, optio atque quae maxime dolores obcaecati odio provident eum nihil quaerat, numquam ipsum alias? Est ipsum magnam iste ducimus?</p> 
-                        </div>
+                    <div class="photo-inner">
+                        
+                            <li><img src="./img/profile.jpg" alt="profile"></li>
+                        
                     </div>
-                    <ul class="personal-info">
-                        <li><label for="nombre">Nombre Completo: <span>Steveen Echeverri Silva</span></label></li>
-                        <li><label for="fecha">Fecha Nacimiento: <span>19 de Mayo</span></label></li>
-                        <li><label for="dirección">Dirección: <span>Cra 19 Este</span></label></li>
-                        <li><label for="email">Email: <span class="word-wrap">steveen.echeverri@gmail.com</span class></label></li>
-                        <li><label for="telefono">Teléfono: <span>+57 321 256 2571</span></label></li>
-                        <li><label for="website">Website: <span>www.steveen.com</span></label></li>
-                    </ul>
+                    <div class="info-inner">
+                        <h1>Steveen Echeverri</h1>
+                        <h3>Junior web developer</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis officiis sed, optio atque quae maxime dolores obcaecati odio provident eum nihil quaerat, numquam ipsum alias? Est ipsum magnam iste ducimus?</p>
+                    </div>   
                 </div>
-                <nav class="menu">
-                    <ul class="tabs">
-                        <li class="tmenu"><a href="#" class="active"><i class="fa fa-user"></i>Perfil</a></li>
-                        <li class="tmenu"><a href="#resume"><i class="fas fa-graduation-cap"></i>Resumen</a></li>
-                        <li class="tmenu"><a href="#portfolio"><i class="fas fa-briefcase"></i>Portafolio</a></li>
-                        <li class="tmenu"><a href="#contact"><i class="fab fa-telegram"></i>Contacto</a></li>                    
-                    </ul>
-                </nav>
-                
+                <ul class="personal-info">
+                    <li><label for="nombre">Nombre Completo: <span>Steveen Echeverri Silva</span></label></li>
+                    <li><label for="fecha">Fecha Nacimiento: <span>19 de Mayo</span></label></li>
+                    <li><label for="dirección">Dirección: <span>Cra 19 Este</span></label></li>
+                    <li><label for="email">Email: <span class="word-wrap">steveen.echeverri@gmail.com</span class></label></li>
+                    <li><label for="telefono">Teléfono: <span>+57 321 256 2571</span></label></li>
+                    <li><label for="website">Website: <span>www.steveen.com</span></label></li>
+                </ul>
             </div>
+            <nav class="menu">
+                <ul class="tabs">
+                    <li class="tmenu"><a href="#profile" class="tab-profile active"><i><i class="fa fa-user"></i></i>Perfil</a></li>
+                    <li class="tmenu"><a href="#resume"><i><i class="fas fa-graduation-cap"></i></i>Resumen</a></li>
+                    <li class="tmenu"><a href="#portfolio"><i><i class="fas fa-briefcase"></i></i>Portafolio</a></li>
+                    <li class="tmenu"><a href="#contact"><i><i class="fab fa-telegram"></i></i>Contacto</a></li>                    
+                </ul>
+            </nav>
+            <section id="resume">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellat non officiis culpa quaerat nesciunt architecto. Alias unde quam, mollitia consequuntur reprehenderit consequatur minus inventore quisquam ut sint laboriosam aperiam?</p>
+            </section>
+            <section id="portfolio">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellat non officiis culpa quaerat nesciunt architecto. Alias unde quam, mollitia consequuntur reprehenderit consequatur minus inventore quisquam ut sint laboriosam aperiam?</p>
+            </section>
+            <section id="contact">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellat non officiis culpa quaerat nesciunt architecto. Alias unde quam, mollitia consequuntur reprehenderit consequatur minus inventore quisquam ut sint laboriosam aperiam?</p>
+            </section>
         </section>
+            
+       
         <footer class="footer">
             <div class="copyright">Copyright &copy; 2020 Steveen Echeverri</div>
         </footer>
@@ -71,5 +81,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
 </body>
 </html>
