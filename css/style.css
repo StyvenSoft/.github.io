@@ -22,6 +22,9 @@
     width: 860px;
     margin: 0 auto;
 }
+#content{
+    background-color: var(--light);
+}
 #profile{
     background-color: var(--gray-color);
     color: var(--light);
@@ -115,7 +118,9 @@ i.fa.fa-share {
     font-family: 'Roboto Condensed', sans-serif;
     margin-right: 35px;
 }
-a.tab-profile.active{
+/* .tabs li.active */
+/* a.tab-profile.active{ */
+.tabs li.active{
     background: url(../img/tab-hover.png) no-repeat;
     height: 118px;
 }
