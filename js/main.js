@@ -16,6 +16,7 @@ jQuery(document).ready(function(){
 	});	
 
 	
+	
 	// Rating bars
 	$(".skills li .rating").each(function(index,e) { 
 
