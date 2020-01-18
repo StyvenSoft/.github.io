@@ -5,6 +5,9 @@
     font-family: 'Oswald', sans-serif;
     list-style: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 :root{
     --dark-color: #343a40;
     --black-color: #1F2430;
@@ -157,4 +160,72 @@ a.tab-profile.active{
 }
 .footer{
     margin: 1.5rem 0;
+}
+#portfolio{
+    padding: 1.8rem;
+}
+#portfolio-list{
+    width: 820px;
+    overflow: hidden;
+    text-decoration: none;
+}
+#portfolio-list li{
+    float: left;
+    margin-right: 25px;
+    text-align: center;
+    background-color: var(--light);
+    border-bottom: 1px solid #e5e5e5;
+    height: 185px;
+    margin-bottom: 30px;
+    width: 180px;
+}
+#portfolio-list li:hover{
+    border-bottom: 1px solid var(--gray-color);
+    height: 185px;
+}
+#portfolio-list img{
+    background-color: #fff;
+    height: 120px;
+    width: 185px;
+}
+#portfolio-list li:hover .title{
+    color: var(--gray-color);
+    text-decoration: none;
+}
+#portfolio-list li .title{
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: 400;
+    color: #3a3a3a;
+}
+#portfolio-list li .categorie{
+    font-size: 11px;
+    line-height: 25px;
+    color: #999;
+}
+.cats-filter{
+    border-bottom: 1px solid #ededed;
+    overflow: hidden;
+    padding: 15px 0;
+}
+.cats-filter li a{
+    float: left;
+    margin-right: 7px;
+    color: white;
+    background-color: #777;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.cats-filter li a.current{
+    background-color: var(--gray-color);
+}
+.extra-text{
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+a:hover {
+    text-decoration: none!important;
 }
