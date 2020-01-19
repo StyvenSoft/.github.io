@@ -233,3 +233,30 @@ i.fa.fa-share {
 a:hover {
     text-decoration: none!important;
 }
+#contact{
+    overflow: hidden;
+}
+.contact-info, .contact-form{
+    float: left;
+    padding: 0 20px;
+}
+.contact-info{
+    width: 250px;
+}
+.contact-form{
+    width: 530px;
+}
+.contact-info ul{
+    float: left;
+    border-left: 1px solid var(--gray-color);
+    padding-left: 18px;
+}
+.contact-info ul li{
+    font-size: 13px;
+    line-height: 20px;
+    overflow: hidden;
+    color: #777;
+}
+#map{
+    margin-bottom: 1.5rem;
+}
