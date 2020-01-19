@@ -168,4 +168,10 @@ jQuery(document).ready(function(){
 	  });
 	  return false;
 	});	 
+
+	$('.test-popup-link').magnificPopup({
+        type: 'image',
+        gallery:{enabled:true} 
+      });
 });	
+
