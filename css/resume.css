@@ -27,7 +27,7 @@ ul.socialicons {
     opacity: 0;
     top: -1px;
     position: relative;
-    transition: all ease 1s;
+    transition: all cubic-bezier(0.55, -0.26, 0.35, 1.37) 1s;
     z-index: -1;
     left: -7px;
 }
@@ -47,7 +47,7 @@ ul.socialicons.maing {
 	float: left;
 	margin: 0;
 	padding: 0;
-	margin-right: 2px;
+	margin-right: 4px;
 }
 
 .socialicons li a {

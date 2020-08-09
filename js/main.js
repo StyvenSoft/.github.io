@@ -32,6 +32,11 @@ jQuery(document).ready(function(){
 		$('.color-box').toggleClass("main");
 	});
 
+
+	$(".social-text").click(function(){
+		$(".socialicons").toggleClass("maing");
+	});
+
 	// Rating bars
 	$(".skills li .rating").each(function(index,e) { 
 
