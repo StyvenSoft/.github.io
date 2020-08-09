@@ -89,9 +89,10 @@ header{
     position: absolute;
     right: 0;
     color: white;
-    margin-top: 2rem;
-    font-size: 1.5rem;
+    padding: 2px 9px;
+    font-size: 22px;
     cursor: pointer;
+    top: 10px;
 }
 i.fa.fa-share {
     margin-right: 5px;
@@ -175,7 +176,7 @@ i.fa.fa-share {
 #logo{
     float: left;
     overflow: hidden;
-    margin-top: 1rem;
+    margin-top: 6px;
     display: none;
     color: var(--light);
 }
