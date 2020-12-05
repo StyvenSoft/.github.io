@@ -34,5 +34,20 @@
     }
     .tabs {
         width: 100%!important;
+        display: flex!important;
+        justify-content: center!important;
+    }
+
+    .tabs li.active {
+        height: 100px;
+    }
+
+    .tabs li > a {
+        width: 85px;
+        margin-right: 0; 
+    }
+
+    .tmenu {
+        width: 100px!important;
     }
 }
