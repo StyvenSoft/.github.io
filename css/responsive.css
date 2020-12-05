@@ -1,0 +1,38 @@
+@media screen and (max-width: 425px) {
+    #profile {
+        grid-auto-flow: row;
+    }
+
+    #container {
+        width: 100%;
+    }
+
+    .about {
+        grid-auto-flow: row;
+    }
+
+    .photo-inner, .info-inner, .personal-info {
+        text-align: center;
+    }
+
+    #content, #profile {
+    background-color: transparent;
+    }
+
+    .tabs li > a > i {
+        font-size: 1.5rem;
+    }
+    .menu {
+        padding: 0;
+    }
+    .caroufredsel_wrapper {
+        position: initial!important;
+    }
+
+    .caroufredsel_wrapper {
+        width: 100%!important;
+    }
+    .tabs {
+        width: 100%!important;
+    }
+}
