@@ -44,6 +44,7 @@ div#particles-js {
 }
 #content{
     background-color: #e4e4e4;
+    border-radius: 15px;
 }
 #profile{
     background-color: var(--darkness);
@@ -51,12 +52,14 @@ div#particles-js {
     display: grid;
     grid-auto-flow: column;
     padding: 1rem;
+    border-radius: 10px 10px 0 0;
 }
 .photo-inner img{
     width: 160px;
     height: 190px;
     margin-top: 5px;
     box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+    border-radius: 10px;
 }
 .about{
     display: grid;
@@ -118,7 +121,7 @@ i.fa.fa-share {
     position: relative;
     padding-left: 130px;
     padding-right: 130px;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 10px 10px;
 }
 .tabs{
     height: 117px;

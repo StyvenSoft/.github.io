@@ -52,6 +52,7 @@ ul.socialicons.maing {
 	margin: 0;
 	padding: 0;
 	margin-right: 4px;
+    border-radius: 10px;
 }
 
 .socialicons li a {
@@ -90,7 +91,7 @@ ul.socialicons.maing {
     cursor: pointer;
      color: #A6AAA9;
      font-size: 20px;
-        
+     border-radius: 5px;
 }
 
 /* aligns caption to center */
@@ -322,7 +323,7 @@ h6{font-family: 'Oswald', sans-serif!important;}
     margin: 0 auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     max-width: 100%;
-    background: #000;
+    /* background: #000; */
 }
 .address-right-box i.fa {
     margin-right: 15px;
